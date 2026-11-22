@@ -17,3 +17,5 @@ class Admin(User):
 
     def update_product_stock(self, product, new_stock):
         return product.update_stock(new_stock)
+
+    # Learning Git Daily Workflow
